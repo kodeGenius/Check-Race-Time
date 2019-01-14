@@ -4,16 +4,16 @@ function raceChecker(){
 	let isRegisterEarly = document.getElementById('selector').value;
 
 	if(runnersAge == 18 && isRegisterEarly=='Yes'){
-		console.log(`Your race number is ${raceNumber + 1000} and you will be running at 9:30am.`)
+		console.log(`Since you are ${runnersAge} old and you are lucky to register early. Your race number is ${raceNumber + 1000} and you will be running at 9:30am.`)
 
 	}else if(runnersAge>18 && isRegisterEarly=='No'){
-		console.log(`Your race number is ${raceNumber} and you will be running at 9:30am.`)
+		console.log(` Since you are ${runnersAge} old and you register late.Your race number is ${raceNumber} and you will be running at 11:00am.`)
 
 	}else if(runnersAge < 18 && isRegisterEarly=='Yes'|| 'No'){
-		console.log(`Your race number is ${raceNumber} and you will be running at 12:00.`)
+		console.log(`Since yor are ${runnersAge} old. Your race number is ${raceNumber} and you will be running at 12:00 noon.`)
 
 	}else{
-		console.log(`Your race number is ${raceNumber} and you will be running at 12:00.`)
+		console.log(`Please see the Administrator.`)
 
 	}
 }
