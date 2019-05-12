@@ -18,3 +18,7 @@ const raceChecker = () => {
 
 	}
 }
+
+const myTime = () =>{
+
+}
