@@ -18,7 +18,6 @@ const raceChecker = () => {
 	}
 }
 
-// wedesign
 const myTime = () =>{
 
 }
